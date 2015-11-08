@@ -18,7 +18,7 @@ par(mfrow= c(2,2))
 
 
 ############### Plots the first graph without an x-label or ticks
-plot(sub$Global_active_power, type="l", ylab = "Global Active Power (kilowatts)",
+plot(sub$Global_active_power, type="l", ylab = "Global Active Power",
      xlab = '', xaxt='n')
 
 #Adds x ticks and names
